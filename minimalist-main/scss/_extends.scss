@@ -1,0 +1,16 @@
+%extend list {
+  list-style-type: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+%innerTitle {
+  font-family: $ibarra;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.05;
+}
+%descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+}

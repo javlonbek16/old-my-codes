@@ -1,0 +1,24 @@
+$media-desktop: "only screen and (max-width : 100%)";
+$media-lg-tablet: "only screen and (max-width : 992px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width :576px)";
+$media-mobile-sm: "only screen and (max-width :500px)";
+$media-mobile-xs: "only screen and (max-width : 375px)";
+
+@media #{$media-desktop} {
+}
+
+@media #{$media-lg-tablet} {
+}
+
+@media #{$media-tablet} {
+}
+
+@media #{$media-mobile} {
+}
+
+@media #{$media-mobile-sm} {
+}
+
+@media #{$media-mobile-xs} {
+}

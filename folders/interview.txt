@@ -1,0 +1,102 @@
+
+<img src="https://telegra.ph/file/f7c89c5eade284fd63ab3.png" width="800">
+<h1 style="text-align:center"> Muhriddin Kohodiev 24 y.o  software engineer at</h1> 
+<br>
+<img src="https://najotedu.t8s.ru/Files/najotedu.t8s.ru/Photos/serwyrsu.ovh.png"  width="200" style="display:inline-block"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Olcha.uz_-_logo.svg/2560px-Olcha.uz_-_logo.svg.png" width="200" style="display:inline-block;">
+
+<hr>
+
+
+
+<h1 style="text-align:center"> 
+
+ JavaScript bo'yicha to'liq kurs reja</h1>
+
+ <h2 style="text-align:center">module-2</h2>
+
+<img src='https://camo.githubusercontent.com/bdd38b0c65d47c7cba62b60617adffedb3a48d1ac6e77501b990fffb1e52815c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f333230302f312a4f463078454d6b5742762d36397a766d4e73365244512e676966' alt='svg'>
+
+<hr>
+
+# Day 13
+1. Mavzularni takrorlash (umummiy)
+2. Object  , to built methods
+
+  - Object.keys(testScore); // gives all keys
+
+  - Object.values(testScore); // gives all values
+
+  - Object.entries(testScore)
+
+3. Javascript ‘this’ keyword (Context)
+
+<hr>
+
+# Day 14
+1. **Movies app** (practice)
+2. Find duplicates in an array using javaScript
+3. **findElement** function
+Javascriptdagi arr.find () usuli massivdagi berilgan shartni qanoatlantiradigan birinchi elementning qiymatini olish uchun ishlatiladi. 
+U massivning barcha elementlarini tekshiradi va qaysi birinchi element shartni qanoatlantirsa, chop etiladi. 
+Bu funksiya massivning bo‘sh elementlariga ega bo‘lgan funksiyada ishlamaydi, shuningdek, asl massivni o‘zgartirmaydi.
+array.find(funksiya (joriy qiymat, indeks, arr), buValue);
+
+
+4. eventDelegation
+
+
+
+
+Voqealar delegatsiyasi asosan voqealarni samarali boshqarish uchun namunadir.
+Har bir shunga o'xshash elementga hodisa tinglovchisini qo'shish o'rniga, 
+biz voqea tinglovchisini ota-elementga qo'shishimiz va voqea ob'ektining 
+.target xususiyatidan foydalanib, 
+ma'lum bir maqsadda hodisani chaqirishimiz mumkin.
+
+Keling, hodisa delegatsiyasi bilan va bo'lmagan misolni ko'rib chiqaylik
+
+
+
+const customUI = document.createElement('ul');
+
+uchun (var i = 1; i <= 10; i++) {
+    const newElement = document.createElement('li');
+    newElement.textContent = "Bu chiziq" + i;
+    newElement.addEventListener('click', () => {
+        console.log('Javob berilmoqda')
+    })
+    customUI.appendChild(newElement);
+}
+
+
+Yuqoridagi kod funksiyani quyidagi rasmda ko'rsatilgan har bir <li> element bilan bog'laydi. Biz <ul> elementini yaratmoqdamiz, 
+juda ko'p <li> elementlarni biriktirmoqdamiz va uni yaratishda har bir paragrafga javob beruvchi funksiyaga ega voqea tinglovchisini biriktirmoqdamiz.
+
+https://media.geeksforgeeks.org/wp-content/uploads/20200918155519/first.png
+
+
+
+
+5. dataset . . .
+6. Template tag
+7. RegExp() & ASCII code
+JavaScript- dagi RegExp test() usuli qatordagi moslikni tekshirish uchun ishlatiladi.
+ Agar mos keladigan bo'lsa, bu usul " true " ni qaytaradi , aks holda " false " ni
+qaytaradi
+RegExpObject.test(str)
+
+Bu erda str - izlanadigan qator. Bu talab qilinadigan maydon.
+1-misol: Bu misol asl satrdagi “kompyuter” qatorini qidiradi. 
+
+Muntazam ibora belgilar qolipidir .
+Naqsh matnda naqshga mos keladigan "qidirish va almashtirish" funktsiyalarini bajarish uchun ishlatiladi.
+JavaScript-da RegExp ob'ekti Xususiyatlar va usullarga ega naqshdir .
+regular exp ni new kalit sozi bilan yaratamiz, oz ichiga  qiymat oladi
+
+
+
+  - https://regexr.com/
+  - https://www.ascii-code.com/ 
+
+ Javascript ‘this’ keyword (Context)

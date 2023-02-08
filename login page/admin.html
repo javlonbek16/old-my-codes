@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="admin-page">
+      <div class="container">
+        <div class="all">
+          <div class="left">
+            <a href="" class="out"
+              ><img src="img/logout.svg" alt="logout" class="logout-img" />
+              Logout
+            </a>
+          </div>
+          <div class="rigth">
+            <div class="header">
+              <h2 class="site-title">Overview</h2>
+              <div class="btn-wrapper">
+                <button class="nuqtalar-btni">
+                  <img src="img/nuqtA.svg" alt="nuqta" class="nuqta" />
+                </button>
+                <button class="add">Add</button>
+              </div>
+            </div>
+            <ul class="admin-books-list">
+              <li class="admin-item">
+                <div class="admin-item-img">
+                  <img src="img/book.png" alt="book-img" class="admin-book" />
+                </div>
+                <div class="admin-item-info">
+                  <h3 class="admin-title">
+                    The Big Book of Dashboards: Visualizing Your Data Using
+                    Real-World Business Scenarios
+                  </h3>
+                  <p class="admin-book-info">
+                    by <a href="" class="book-author">Steve Wexler</a> , Jeffrey
+                    Shaffer, et al. | Apr 24, 2017
+                  </p>
+                  <div class="stars">
+                    <a href="" class="stars-link"
+                      ><img src="img/a.svg" alt="" class="a" />
+                    </a>
+                    <span class="reting">4.6</span>
+                  </div>
+                  <div class="cost">
+                    <span class="cost">Cost: $24.49</span>
+                  </div>
+                  <div class="btnn">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="admin-modal">
+      <a href="#" class="img-iks"
+        ><img src="img/iks.svg" alt="x" class="iks"
+      /></a>
+      <form action="#" class="admin-form" id="form">
+        <input
+          type="text"
+          placeholder="Book Title"
+          class="amdin-input boshqa-narsa"
+        />
+        <input type="text" placeholder="Author" class="amdin-input" />
+        <input type="text" placeholder="Category" class="amdin-input" />
+        <input type="text" placeholder="Cost: $" class="amdin-input" />
+        <input
+          type="text"
+          placeholder="Published Date: 2022-12-02"
+          class="amdin-input"
+        />
+        <input
+          type="text"
+          placeholder="Publisher: Nimadur"
+          class="amdin-input"
+        />
+        <input type="text" placeholder="Rate: 7.7" class="amdin-input" />
+      </form>
+      <button class="edit botton-edit">Edit</button>
+    </div>
+    <script src="./js/plugin.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="light dark">
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <img src="img/Logo.svg" alt="Logo" class="logo-img" />
+          <div class="header__lists">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link"> Categories </a>
+              </li>
+              <li class="nav__item">
+                <select id="SecondSelect">
+                  <option value="About Us">About Us</option>
+                </select>
+              </li>
+              <li class="nav__item">
+                <select id="firstSelect">
+                  <option value="Help center">Help center</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="seconds__list">
+              <li class="seconds__item">+1 855 420 0000</li>
+              <li class="seconds__items">
+                <a href="#" id="LogIn">
+                  LogIn
+                  <img
+                    src="img/login-icon.svg"
+                    alt="Log IN"
+                    class="login-img"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="mood-btns">
+            <a class="dark-mood">
+              <img src="./moon.svg" alt="" />
+            </a>
+            <a class="light-mood">
+              <img src="img/Sun.svg" alt="" />
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrapper">
+            <div class="intro__info-wrapper">
+              <h2 class="intro__title">Compact cars</h2>
+              <p class="intro__info">
+                Rent cars as you are comfortable and where you are comfortable.
+              </p>
+            </div>
+            <div class="intro__img-wrapper">
+              <img src="img/intro-img.jpg" alt="intro-img" class="intro__img" />
+            </div>
+            <input
+              type="search"
+              id="search"
+              placeholder="Find the car of your dreams"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__title-info">
+              <h2 class="hero__title">Choose the car of your dreams</h2>
+              <p class="hero__info">
+                We provide our customers with the most incredible driving
+                emotions. That is why there are only world-class cars in our
+                fleet
+              </p>
+            </div>
+            <div class="carusel__links">
+              <a href="#" class="compact corusel__link">Compact</a>
+              <a href="#" class="sports_cars corusel__link">Sports cars</a>
+              <a href="#" class="vans corusel__link">Vans</a>
+            </div>
+            <ul class="carusel__list">
+              <li class="carusel__item">
+                <h3 class="carusel__title">Ford Fiesta</h3>
+                <span class="carusel__carusel__info">Economy Car</span>
+                <img
+                  src="/img/car-img.svg"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+              <li class="carusel__item">
+                <h3 class="carusel__title">Nissan Versa</h3>
+                <span class="carusel__carusel__info">Compact Car</span>
+                <img
+                  src="/img/red-car.png"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+              <li class="carusel__item">
+                <h3 class="carusel__title">Toyota Corolla</h3>
+                <span class="carusel__carusel__info">Mid-size Car</span>
+                <img
+                  src="/img/white-car.png"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+              <li class="carusel__item">
+                <h3 class="carusel__title">Nissan Rogue</h3>
+                <span class="carusel__carusel__info">Mid-size SUV</span>
+                <img
+                  src="/img/redly-car.png"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+              <li class="carusel__item">
+                <h3 class="carusel__title">Chevy Traverse</h3>
+                <span class="carusel__carusel__info">Full-size SUV </span>
+                <img
+                  src="/img/whitely-car.png"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+              <li class="carusel__item">
+                <h3 class="carusel__title">Nissan Altima</h3>
+                <span class="carusel__carusel__info">Full-size Car</span>
+                <img
+                  src="/img/car-red.png"
+                  alt="car-img"
+                  class="carusel__img"
+                />
+                <div class="carusel__boottom-item">
+                  <img
+                    src="img/man-icon-light.svg"
+                    alt="man-img"
+                    class="seats-icon"
+                  />
+                  <span class="seats">5 Seats</span>
+                  <img
+                    src="img/motor-light.svg"
+                    alt="icon-motor"
+                    class="automatic-icon"
+                  />
+                  <span class="motor">Automatic</span>
+                </div>
+                <div class="carusel__boottom-item">
+                  <img src="img/year-ligth.svg" alt="year-light" class="year" />
+                  <span class="years">21+ Years</span>
+                  <img
+                    src="img/oil-light.svg"
+                    alt="oil-light"
+                    class="oil-img"
+                  />
+                  <span class="oil">1-lit / 2.5 km</span>
+                </div>
+              </li>
+            </ul>
+            <button id="viewAll">View all cars</button>
+          </div>
+        </div>
+      </section>
+      <section class="coments">
+        <div class="container">
+          <div class="coments__wrapper">
+            <div class="coments__left-item">
+              <div class="google">
+                <img src="img/Google.svg" alt="Google-IMG" class="google-img" />
+                <a href="#" class="google-link">From Google</a>
+              </div>
+              <h3 class="coments__title">Hear what the community is saying</h3>
+              <img src="img/info-line.svg" alt="LINe" class="line" />
+              <p class="google__info">More interesting reviews on Instagram</p>
+              <a href="#" class="instagram__link">Instagram</a>
+            </div>
+            <div class="wrapper">
+              <div class="slider">
+                <div class="slides">
+                  <div id="slide-1">
+                    <div class="box">
+                      <img src="./imges/Ava.png" alt="" />
+                      <li class="box__card">
+                        <h3>Savannah Nguyen</h3>
+                        <img src="./imges/socials.png" alt="" />
+                      </li>
+                      <a href="#"
+                        ><p class="main__links">savannahnguyen@gmail.com</p>
+                      </a>
+                      <p class="main__text">
+                        Sagittis sed tortor, elementum vitae varius sodales
+                        consectetur. Vitae arcu ut morbi bibendum ullamcorper
+                        feugiat. Venenatis hendrerit cursus egestas sit ornare
+                        nunc vulputate aliquam sapien. Pulvinar nunc consectetur
+                        nibh consectetur mollis mauris est mauris amet. Sed hac
+                        vehicula id et dui morbi quam pulvinar condimentum.
+                        Senectus sed varius interdum nunc, arcu vulputate massa.
+                      </p>
+                      <div class="maint"></div>
+                      <h4 class="main__title">
+                        Star rating: <img src="./imges/Frame 5292.png" alt="" />
+                      </h4>
+                    </div>
+                  </div>
+                  <div id="slide-2">
+                    <div class="box">
+                      <img src="./imges/Ava.png" alt="" />
+                      <li class="box__card">
+                        <h3>Savannah Nguyen</h3>
+                        <img src="./imges/socials.png" alt="" />
+                      </li>
+                      <a href="#"
+                        ><p class="main__links">savannahnguyen@gmail.com</p>
+                      </a>
+                      <p class="main__text">
+                        Sagittis sed tortor, elementum vitae varius sodales
+                        consectetur. Vitae arcu ut morbi bibendum ullamcorper
+                        feugiat. Venenatis hendrerit cursus egestas sit ornare
+                        nunc vulputate aliquam sapien. Pulvinar nunc consectetur
+                        nibh consectetur mollis mauris est mauris amet. Sed hac
+                        vehicula id et dui morbi quam pulvinar condimentum.
+                        Senectus sed varius interdum nunc, arcu vulputate massa.
+                      </p>
+                      <div class="maint"></div>
+                      <h4 class="main__title">
+                        Star rating: <img src="./imges/Frame 5292.png" alt="" />
+                      </h4>
+                    </div>
+                  </div>
+                  <div id="slide-3">
+                    <div class="box">
+                      <div class="box-card">
+                        <img src="img/Google.svg" alt="ava" />
+                        <div>
+                          <h3>Savannah Nguyen</h3>
+                          <a href="#"
+                            ><p class="main__links">savannahnguyen@gmail.com</p>
+                          </a>
+                        </div>
+                        <img src="img/Google.svg" alt="google" />
+                      </div>
+                      <p class="main__text">
+                        Sagittis sed tortor, elementum vitae varius sodales
+                        consectetur. Vitae arcu ut morbi bibendum ullamcorper
+                        feugiat. Venenatis hendrerit cursus egestas sit ornare
+                        nunc vulputate aliquam sapien. Pulvinar nunc consectetur
+                        nibh consectetur mollis mauris est mauris amet. Sed hac
+                        vehicula id et dui morbi quam pulvinar condimentum.
+                        Senectus sed varius interdum nunc, arcu vulputate massa.
+                      </p>
+                      <div class="maint"></div>
+                      <h4 class="main__title">
+                        Star rating: <img src="img/stars-light.svg" alt="" />
+                      </h4>
+                    </div>
+                  </div>
+                  <div id="slide-4">
+                    <div class="box">
+                      <img src="./imges/Ava.png" alt="" />
+                      <li class="box__card">
+                        <h3>Savannah Nguyen</h3>
+                        <img src="./imges/socials.png" alt="" />
+                      </li>
+                      <a href="#"
+                        ><p class="main__links">savannahnguyen@gmail.com</p>
+                      </a>
+                      <p class="main__text">
+                        Sagittis sed tortor, elementum vitae varius sodales
+                        consectetur. Vitae arcu ut morbi bibendum ullamcorper
+                        feugiat. Venenatis hendrerit cursus egestas sit ornare
+                        nunc vulputate aliquam sapien. Pulvinar nunc consectetur
+                        nibh consectetur mollis mauris est mauris amet. Sed hac
+                        vehicula id et dui morbi quam pulvinar condimentum.
+                        Senectus sed varius interdum nunc, arcu vulputate massa.
+                      </p>
+                      <div class="maint"></div>
+                      <h4 class="main__title">
+                        Star rating: <img src="./imges/Frame 5292.png" alt="" />
+                      </h4>
+                    </div>
+                  </div>
+                  <div id="slide-5">
+                    <div class="box">
+                      <img src="./imges/Ava.png" alt="" />
+                      <li class="box__card">
+                        <h3>Savannah Nguyen</h3>
+                        <img src="./imges/socials.png" alt="" />
+                      </li>
+                      <a href="#"
+                        ><p class="main__links">savannahnguyen@gmail.com</p>
+                      </a>
+                      <p class="main__text">
+                        Sagittis sed tortor, elementum vitae varius sodales
+                        consectetur. Vitae arcu ut morbi bibendum ullamcorper
+                        feugiat. Venenatis hendrerit cursus egestas sit ornare
+                        nunc vulputate aliquam sapien. Pulvinar nunc consectetur
+                        nibh consectetur mollis mauris est mauris amet. Sed hac
+                        vehicula id et dui morbi quam pulvinar condimentum.
+                        Senectus sed varius interdum nunc, arcu vulputate massa.
+                      </p>
+                      <div class="maint"></div>
+                      <h4 class="main__title">
+                        Star rating: <img src="./imges/Frame 5292.png" alt="" />
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands">
+        <div class="container">
+          <div class="brands__wrapper">
+            <span class="more-brands"> More than 50 brands of cars </span>
+            <ul class="brands__list">
+              <li class="brands__item">
+                <a href="#" class="brands__link">
+                  <img src="img/ford.svg" alt="Ford" class="brands__img" />
+                </a>
+              </li>
+              <li class="brands__item">
+                <a href="#" class="brands__link">
+                  <img src="img/nissan.svg" alt="Ford" class="brands__img" />
+                </a>
+              </li>
+              <li class="brands__item">
+                <a href="#" class="brands__link">
+                  <img src="img/toyota.svg" alt="Ford" class="brands__img" />
+                </a>
+              </li>
+              <li class="brands__item">
+                <a href="#" class="brands__link">
+                  <img src="img/hyundai.svg" alt="Ford" class="brands__img" />
+                </a>
+              </li>
+              <li class="brands__item">
+                <a href="#" class="brands__link">
+                  <img src="img/jeep.svg" alt="Ford" class="brands__img" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container">
+          <div class="service__wrapper">
+            <h2 class="service__title">Unparalleled service</h2>
+            <p class="service__info">
+              Whether you are looking for Newark Airport car rental, an
+              insurance replacement vehicle or minivan to take on vacation Car
+              rental has it all.
+            </p>
+            <ul class="service__list">
+              <li class="service__item">
+                <div class="service__left">
+                  <h3 class="service__item-title">Book online, pay online</h3>
+                  <p class="service__item-info">
+                    Complete the booking process A-Z, with our easy online
+                    system
+                  </p>
+                </div>
+                <div class="service__right">
+                  <img
+                    src="img/desktop.svg"
+                    alt="desktop"
+                    class="service__img"
+                  />
+                </div>
+              </li>
+              <li class="service__item">
+                <div class="service__left">
+                  <h3 class="service__item-title">Book online, pay online</h3>
+                  <p class="service__item-info">
+                    Complete the booking process A-Z, with our easy online
+                    system
+                  </p>
+                </div>
+                <div class="service__right">
+                  <img
+                    src="img/desktop.svg"
+                    alt="desktop"
+                    class="service__img"
+                  />
+                </div>
+              </li>
+              <li class="service__item">
+                <div class="service__left">
+                  <h3 class="service__item-title">Book online, pay online</h3>
+                  <p class="service__item-info">
+                    Complete the booking process A-Z, with our easy online
+                    system
+                  </p>
+                </div>
+                <div class="service__right">
+                  <img
+                    src="img/desktop.svg"
+                    alt="desktop"
+                    class="service__img"
+                  />
+                </div>
+              </li>
+              <li class="service__item">
+                <div class="service__left">
+                  <h3 class="service__item-title">Book online, pay online</h3>
+                  <p class="service__item-info">
+                    Complete the booking process A-Z, with our easy online
+                    system
+                  </p>
+                </div>
+                <div class="service__right">
+                  <img
+                    src="img/desktop.svg"
+                    alt="desktop"
+                    class="service__img"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="rental">
+        <div class="container">
+          <div class="rental__wrapper">
+            <div class="rental__left">
+              <h3 class="rental__title">Car rental keeps you safe</h3>
+              <p class="rental__info">
+                The safety of our employees and renters is our number one
+                priority. In addition to being confident your vehicle is cleaned
+                and sanitized every time you rent, you can also feel confident
+                that we will take every opportunity to enhance the health and
+                safety measures currently practiced in our operations.
+              </p>
+              <ul class="rental__list">
+                <li class="rental__item">
+                  <img
+                    src="img/chemistry-img-light.svg"
+                    alt=""
+                    class="rental__img"
+                  />
+                  <p class="rental__item-info">
+                    Every car is thoroughly sanitized and cleaned
+                  </p>
+                </li>
+                <li class="rental__item">
+                  <img
+                    src="img/chemistry-img-light.svg"
+                    alt=""
+                    class="rental__img"
+                  />
+                  <p class="rental__item-info">
+                    Every car is thoroughly sanitized and cleaned
+                  </p>
+                </li>
+                <li class="rental__item">
+                  <img
+                    src="img/chemistry-img-light.svg"
+                    alt=""
+                    class="rental__img"
+                  />
+                  <p class="rental__item-info">
+                    Every car is thoroughly sanitized and cleaned
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="rental__right">
+              <img
+                src="img/rental-img.png"
+                alt="rental-img"
+                class="rental__intro-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <img src="img/Logo.svg" alt="Logo-img" class="logo-img" />
+          <p class="footer__info">
+            Car rental offers a wide range of cars available for rent in Newark
+            EWR Airport NJ. We pride ourselves in our customer service, and
+            hassle-free renting experience.
+          </p>
+        </div>
+        <div class="footer__right">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Main</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">My Bookings</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Reservation</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Categories</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">My Compact</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Sports cars</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> Vans </a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Company</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> News </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"> Contact us </a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Our Locations</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">4140 Parker Rd. Allentown</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">4517 Washington Ave.</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">
+                2118 Thornridge Cir. Syracuse
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__boottom">
+        <span class="span_code">
+          © 2022 Car rental Terms & Conditions. Coded by Nematov
+          <a href="@nematov_javlon"> Javlonbek</a>
+        </span>
+        <div class="titles">
+          <ul class="footer__list conect">
+            <h3 class="footer-boottom__title">Contact</h3>
+            <li class="footer__item"></li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">+1 855 420 0000</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">carrental@gmail.com</a>
+            </li>
+          </ul>
+          <ul class="footer__list conect">
+            <h3 class="footer-boottom__title">Hours of operation</h3>
+            <li class="footer__item"></li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">8:00 - 21:00 Mon-Sat </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">9:00 - 15:00 Sundays</a>
+            </li>
+          </ul>
+          <ul class="footer__list conect">
+            <h3 class="footer-boottom__title">Social network</h3>
+            <li class="footer__item"></li>
+            <li class="footer__item">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" class="social__link"
+                    ><img
+                      src="img/instagram.svg"
+                      alt="instagram"
+                      class="social__img"
+                  /></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"
+                    ><img
+                      src="img/twitter.svg"
+                      alt="twitter"
+                      class="social__img"
+                  /></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"
+                    ><img
+                      src="img/facebook.svg"
+                      alt="facebook"
+                      class="social__img"
+                  /></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link"
+                    ><img src="img/tel.svg" alt="tel" class="social__img"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

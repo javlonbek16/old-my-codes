@@ -1,0 +1,431 @@
+.login-wrapper {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 479px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+.password {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 43px;
+}
+.password::after {
+  content: "";
+  background-image: url("");
+}
+.books-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.book-img {
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+
+.book-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.book-info {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #757881;
+}
+
+.book-span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #757881;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-input {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 300px;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.login-input::placeholder {
+  text-align: center;
+}
+
+.submit {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0d75ff;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: 300px;
+  height: 45px;
+}
+.login-span::before {
+  content: "Forgot password?";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 200px;
+  margin-top: 11px;
+}
+
+.login {
+  margin-top: 51px;
+}
+
+.logo {
+  margin-top: 198px;
+  cursor: pointer;
+}
+
+.item__wrapper {
+  display: flex;
+  align-items: center;
+  background: #f8fafd;
+  border-radius: 4px;
+  width: 218px;
+}
+
+ul {
+  list-style: none;
+}
+
+.book-open {
+  margin-left: 42px;
+  cursor: pointer;
+}
+.delete-img {
+  cursor: pointer;
+}
+
+.item-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.item-info {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #757881;
+}
+
+.book-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background: #ffd80d;
+  border-radius: 4px;
+  width: 120px;
+  height: 37px;
+  border: none;
+}
+
+.link-info {
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0d75ff;
+  background: rgba(13, 117, 255, 0.05);
+  border-radius: 4px;
+  margin-left: 6px;
+  width: 120px;
+  height: 37px;
+}
+
+.link-read {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #75828a;
+  border-radius: 4px;
+  border: none;
+  width: 246px;
+  height: 37px;
+  margin-top: 5px;
+}
+
+.books {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__input {
+  background: #f8fafd;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+  width: 670px;
+  height: 48px;
+  border: none;
+}
+
+.logout {
+  background: #0d75ff;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 99px;
+  height: 40px;
+}
+
+.nav__item--modif {
+  display: flex;
+  margin-left: 110px;
+}
+
+.order {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #a6b0c3;
+  border-radius: 4px;
+  width: 165px;
+  height: 34px;
+}
+
+.nav__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222531;
+}
+
+a {
+  text-decoration: none;
+}
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 16px;
+  background: #f3f3f3;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  width: 430px;
+  height: 56px;
+  border: none;
+}
+
+.admin-modal {
+  background: #be2828;
+  border-radius: 10px;
+  width: 488px;
+  height: 640px;
+}
+
+.all {
+  display: flex;
+}
+
+.admin-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  width: 67px;
+  height: 35px;
+  background: #10cd45;
+  border-radius: 5px;
+  border: none;
+}
+.edit {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  background: #10cd45;
+  border-radius: 5px;
+  border: none;
+  width: 83px;
+  height: 38px;
+}
+.delete {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  width: 83px;
+  height: 38px;
+}
+
+.admin-item-img {
+  background: rgba(0, 0, 0, 0.03);
+  width: 210px;
+  height: 180px;
+}
+
+.admin-book {
+  margin-left: 36px;
+  margin-top: 17px;
+}
+
+.admin-item-info {
+  background: #e2e2e2;
+  border-radius: 0px 10px 10px 0px;
+  width: 766px;
+  height: 180px;
+}
+
+.admin-title,
+.admin-book-info,
+.stars,
+.cost {
+  margin-left: 28px;
+}
+
+.btnn {
+  margin-left: 540px;
+}
+
+.delete {
+  margin-left: 49px;
+  background: #ec3736;
+}
+
+.botton-edit {
+  margin-left: 397px;
+}
+
+.iks {
+  margin-left: 430px;
+}
+
+.admin-modal {
+  display: none;
+}
+
+/* .admin-page {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 10px 10px 0px;
+  position: relative;
+  z-index: 999;
+} */
+
+.left {
+  background-image: url("./img/Side-Menu.png");
+  background-size: cover;
+  width: 241.83px;
+  height: 955.09px;
+}
+
+.out {
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 897px;
+  margin-left: 117px;
+}
+
+.site-title {
+  margin-left: 91px;
+}
+
+.nuqtalar-btni {
+  background: #eef2f5;
+  border-radius: 5px;
+  width: 67px;
+  height: 35px;
+  border: none;
+  margin-right: 10px;
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: #e3e6eb;
+}
+
+.search::before {
+  display: inline-block;
+  content: "dasdas";
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/Lupa.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+[butn]::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.opButn {
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/book-open.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.remButn {
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/delete.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title > h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  color: #000000;
+}
+
+.card-title > h6 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  color: #757881;
+}
+.butn {
+  color: #0d75ff;
+}
+.bgIm {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/books.jpg");
+  background-size: 500px;
+}
+.Icol > [placeholders] {
+  color: white !important;
+}
+.butn_bg {
+  background-color: #aacfff;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+  display: flex;
+  justify-content: flex-end;
+  transition: right 1s ease-in-out;
+}
+
+.active {
+  right: 0%;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Home page</title>
+  </head>
+
+  <body>
+    <h1 class="visually-hidden">minimallist</h1>
+    <!-- HEADER START -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html">
+            <img src="./img/logo-img.svg" alt="logo" class="nav__logo" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="portfolio.html" class="nav__link">PORTFOLIO</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">CONTACT ME</a>
+            </li>
+          </ul>
+
+          <img src="./img/burger.svg" alt="menu" class="nav__menu" />
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <main>
+      <!-- Intro START -->
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrapper">
+            <div class="intro__info-wrapper">
+              <h3 class="intro__title">
+                Hey, I’m Alex Spencer and I love building beautiful websites
+              </h3>
+              <button class="intro__btn">about me</button>
+            </div>
+            <picture>
+              <source media="(min-width:1268px)" srcset="img/intro.png" />
+              <source media="(min-width:768px)" srcset="img/intro-tablet.png" />
+              <source media="(min-width:375px)" srcset="img/intro-mobile.png" />
+              <img src="img/intro.png" alt="intro-img" class="intro__img" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro END -->
+      <!-- ABOUT START -->
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__img-wrapper">
+              <picture>
+                <source media="(min-width:1268px)" srcset="img/about-img.png" />
+                <source
+                  media="(min-width:768px)"
+                  srcset="img/about-img-tablet.png"
+                />
+                <source
+                  media="(min-width:375px)"
+                  srcset="img/about-img-mobile.png"
+                />
+                <img
+                  src="img/about-img.png"
+                  alt="picture-autor"
+                  class="about__img"
+                />
+              </picture>
+            </div>
+            <div class="about__info-wrapper">
+              <span class="about__span"> </span>
+              <h2 class="about__title">About Me</h2>
+              <p class="about__info">
+                I’m a junior front-end developer looking for a new role in an
+                exciting company. I focus on writing accessible HTML, using
+                modern CSS practices and writing clean JavaScript. When writing
+                JavaScript code, I mostly use React, but I can adapt to whatever
+                tools are required. I’m based in London, UK, but I’m happy
+                working remotely and have experience in remote teams. When I’m
+                not coding, you’ll find me outdoors. I love being out in nature
+                whether that’s going for a walk, run or cycling. I’d love you to
+                check out my work.
+              </p>
+              <a href="portfolio.html" class="about__link">GO TO PORTFOLIO</a>
+              <span class="span__bootom"> </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT END -->
+      <!-- project start-->
+      <section class="project">
+        <div class="container">
+          <div class="project__wrapper">
+            <h3 class="project__title">
+              Interested in doing a project together?
+            </h3>
+            <span class="project__span"> </span>
+            <a href="contact.html" class="project__link">CONTACT ME </a>
+          </div>
+        </div>
+      </section>
+      <!--  project end -->
+    </main>
+    <footer>
+      <!-- footer start-->
+      <section class="site-footer container">
+        <h2 class="visually-hidden">footer</h2>
+
+        <nav class="site-header nav site-footer__nav">
+          <a href="#" class="nav__logo-img">
+            <img src="img/footer-logo.svg" alt="site-footer__img logo-img" />
+          </a>
+          <ul class="nav__list site-footer__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link site-footer__link">
+                HOME
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="portfolio.html" class="nav__link site-footer__link">
+                PORTFOLIO
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link site-footer__link">
+                CONTACT</a
+              >
+            </li>
+          </ul>
+          <ul class="site-footer__social-list">
+            <li class="site-footer__social-list-item">
+              <a href="#">
+                <img
+                  src="img/github.svg"
+                  alt="git-img"
+                  class="site-footer__social-img"
+                />
+              </a>
+            </li>
+            <li class="site-footer__social-list-item">
+              <a href="#">
+                <img
+                  src="img/twiter.svg"
+                  alt="twitter-img"
+                  class="site-footer__social-img"
+                />
+              </a>
+            </li>
+            <li class="site-footer__social-list-item">
+              <a href="#">
+                <img
+                  src="img/linkidin.svg"
+                  alt="linkkidin-img"
+                  class="site-footer__social-img"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+    <!-- footer end-->
+    <div class="autor">
+      <a href="https://t.me/nematov_javlon">
+        <p class="autor__name">Ne'matov Javlonbek</p>
+      </a>
+    </div>
+  </body>
+</html>

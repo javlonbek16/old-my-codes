@@ -1,0 +1,19 @@
+.ul {
+  list-style: none;
+}
+
+p {
+  border: 1px solid aqua;
+  display: inline-block;
+}
+span {
+  border: 1px solid red;
+}
+
+h3 {
+  border: 1px solid rgb(68, 0, 255);
+}
+
+div {
+  border: 1px solid rgb(51, 255, 0);
+}

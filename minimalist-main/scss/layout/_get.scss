@@ -1,0 +1,115 @@
+.get__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get__title {
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+  width: 350px;
+  text-align: start;
+  margin-bottom: 300px;
+}
+
+.get__info {
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  width: 635px;
+  height: 210px;
+}
+.get__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.get__span::after {
+  content: "";
+  background-image: url("../../img/rectangle.svg");
+  background-size: cover;
+  display: block;
+  width: 1280px;
+  height: 1px;
+}
+@media #{$media-tablet} {
+  .get__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .get__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    width: 350px;
+    text-align: start;
+    margin-bottom: 24px;
+  }
+
+  .get__info {
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323d;
+    width: 689px;
+    height: 210px;
+  }
+  .get__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .get__span::after {
+    content: "";
+    background-image: url("../../img/rectangle.svg");
+    background-size: cover;
+    display: block;
+    width: 1280px;
+    height: 1px;
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .get__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .get__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    width: 350px;
+    text-align: start;
+    margin-bottom: 24px;
+  }
+
+  .get__info {
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323d;
+    width: 311px;
+    height: 360px;
+  }
+  .get__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .get__span::after {
+    content: "";
+    background-image: url("../../img/rectangle.svg");
+    background-size: cover;
+    display: block;
+    width: 1280px;
+    height: 1px;
+  }
+}

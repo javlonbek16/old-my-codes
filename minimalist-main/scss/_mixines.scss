@@ -1,0 +1,16 @@
+@mixin custom-menu($d, $js, $h, $w, $ai, $bg) {
+   display: $d;
+   justify-content: $js;
+   height: $h;
+   width: $w;
+   align-items: $ai;
+   background-color: $bg;
+}
+
+@mixin btn($padding, $bg, $color){
+   padding: $padding;
+   background-color: $bg;
+   color: $color;
+   letter-spacing: 2px;
+   font-size: 12px;
+}

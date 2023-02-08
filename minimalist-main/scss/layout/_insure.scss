@@ -1,0 +1,399 @@
+.insure__wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.insure__title {
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.insure__img {
+  max-width: 540px;
+  height: 500px;
+}
+.insure__img-wrapper {
+  margin-right: 100px;
+}
+
+.insure__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.insure__info {
+  width: 350px;
+  height: 150px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+}
+.insure__link {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 17px 36px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  transition: all 0.3s ease;
+}
+.insure__span::after {
+  background-image: url("../../img/rectangle.svg");
+  content: "";
+  background-size: cover;
+  display: block;
+  width: 350px;
+  height: 1px;
+}
+.insure__span {
+  margin-top: 50px;
+}
+.insure__span-bottom::before {
+  background-image: url("../../img/rectangle.svg");
+  content: "";
+  background-size: cover;
+  display: block;
+  width: 350px;
+  height: 1px;
+}
+.insure__span-bottom {
+  margin-top: 103px;
+  margin-bottom: 30px;
+}
+
+.insure__link:hover {
+  background-color: #33323d;
+  color: #f2f2f2;
+}
+
+@media #{$media-lg-tablet} {
+  .insure__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+  .insure__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__info {
+    width: 281px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323d;
+  }
+  .insure__link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    transition: all 0.3s ease;
+  }
+  .insure__span::after {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+
+  .insure__span-bottom::before {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+  .insure__span-bottom {
+    margin-top: 83px;
+    margin-bottom: 50px;
+  }
+
+  .insure__link:hover {
+    background-color: #33323d;
+    color: #f2f2f2;
+  }
+}
+
+@media #{$media-tablet} {
+  .insure__img {
+    max-width: 339px;
+    height: 314px;
+  }
+  .insure__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+  .insure__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__info {
+    width: 281px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323d;
+  }
+  .insure__link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    transition: all 0.3s ease;
+  }
+  .insure__span::after {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+
+  .insure__span-bottom::before {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+  .insure__span-bottom {
+    margin-top: 103px;
+  }
+
+  .insure__link:hover {
+    background-color: #33323d;
+    color: #f2f2f2;
+  }
+}
+
+@media #{$media-mobile} {
+  .insure__img {
+    max-width: 339px;
+    height: 314px;
+  }
+  .insure__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .insure__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+  .insure__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__info {
+    width: 281px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323d;
+  }
+  .insure__link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    transition: all 0.3s ease;
+  }
+  .insure__span::after {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+
+  .insure__span-bottom::before {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+  .insure__span-bottom {
+    margin-top: 103px;
+  }
+
+  .insure__link:hover {
+    background-color: #33323d;
+    color: #f2f2f2;
+  }
+}
+
+@media #{$media-mobile-sm} {
+  .insure__img {
+    max-width: 339px;
+    height: 314px;
+  }
+  .insure__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .insure__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+  .insure__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__info {
+    width: 281px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323d;
+  }
+  .insure__link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    transition: all 0.3s ease;
+  }
+  .insure__span::after {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+
+  .insure__span-bottom::before {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+  .insure__span-bottom {
+    margin-top: 103px;
+  }
+
+  .insure__link:hover {
+    background-color: #33323d;
+    color: #f2f2f2;
+  }
+}
+
+@media #{$media-mobile-xs} {
+  .insure__img {
+    max-width: 339px;
+    height: 314px;
+  }
+  .insure__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .insure__title {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+  }
+  .insure__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .insure__info {
+    width: 281px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323d;
+  }
+  .insure__link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid #33323d;
+    color: #33323d;
+    transition: all 0.3s ease;
+  }
+  .insure__span::after {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+
+  .insure__span-bottom::before {
+    background-image: url("../../img/rectangle.svg");
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 350px;
+    height: 1px;
+  }
+  .insure__span-bottom {
+    margin-top: 103px;
+  }
+
+  .insure__link:hover {
+    background-color: #33323d;
+    color: #f2f2f2;
+  }
+}
